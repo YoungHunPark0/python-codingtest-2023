@@ -1,5 +1,5 @@
-# 입력속도를 개선! 단, 주피터노트북에서는 실행불가
-import sys
+# 입력속도를 개선! 단, 주피터노트북에서는 실행불가 
+import sys # 파랑 변수(객체), 초록색 함수
 input = sys.stdin.readline # 이부분이 없으면 백준 시간초과!
 
 N, M = tuple(map(int, input().split()))
